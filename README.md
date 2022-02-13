@@ -9,3 +9,6 @@ The first stage of this project is housed in the ETL_functions test file. This c
 The second stage of this project is housed in the ETL_clean_wiki_movies file. This section created a function that cleans raw data pulled from Wikipedia Movies (a JSON) detailing charactertistics about the film, its creation, and its reception. Since some data was incomplete or not relevant, that data is filtered out. The completed DataFrame contains only clean Wiki movies data.
 
 The third stage of this project is house in the clean_kaggle_data file. The penultimate section of this project added to the function created in the second phase to include code that would clean data pulled from Kaggle (ratings and movie data in two seperate CSV files). Once complete, three DataFrames are created to organize each type of data.
+
+The final stage of this project created an SQL database with the cleaned data from all files using ETL. Screenshots of the total number of rows for each database are included in the Resources folder.
+
